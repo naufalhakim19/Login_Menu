@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #3897f0;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #2671c8;
+        }
+
+        img {
+            max-width: 100%;
+            /* Adjusted to make the image responsive */
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="login_process.php" method="post">
+        <img src="logo instagram-1.png" alt="Instagram Logo">
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+        <!-- <button type="submit" name="submit" value="submit">Log In</button> -->
+
+        <button type="submit" name="submit">Log in</button>
+    </form>
+
+    <!-- <script>
+        function getStringFromInput() {
+            // Get the value from the input field
+            var usernameInput = document.getElementById("username");
+            var usernameValue = usernameInput.value;
+
+            var passwordInput = document.getElementById("password");
+            var passwordValue = passwordInput.value;
+
+            // Output the value (you can do anything else with it)
+            alert("Username: " + usernameValue + "\nPassword: " + passwordValue);
+        }
+    </script> -->
+
+</body>
+
+
+
+
+
+
+</html>
